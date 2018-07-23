@@ -172,7 +172,7 @@ The signature is verified as
 
     <signature> <pubkey> CHECKSIG
 
-Comparing with a traditional P2PKH output, the P2WPKH equivalent occupies 3 less bytes in the scriptPubKey, and moves the signature and public key from scriptSig to witness.
+Comparing with a traditional P2PKH output, the P2WPKH equivalent occupies 4 less bytes in the scriptPubKey, and moves the signature and public key from scriptSig to witness.
 
 === P2WPKH nested in BIP16 P2SH ===
 
